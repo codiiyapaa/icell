@@ -1,16 +1,18 @@
 import React from 'react';
- 
-import { NavLink } from 'react-router-dom';
- 
-const Navigation = () => {
-    return (
-       <div>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/Blogadd">Blogadd</NavLink>
-          <NavLink to="/Dashboard">Dashboard</NavLink>
-          <NavLink to="/Eventadd">Eventadd</NavLink>
-          <NavLink to="/Loginpage">Loginpage</NavLink>
-       </div>
+import './Navigation.css';
+
+
+function Navigation() {
+    var x=-1;
+    console.log(x);
+    return(
+        <>
+            <div className="navbar">
+                <nav>
+                    Admin Panel
+                </nav>
+            </div>
+        </>
     );
 }
  
