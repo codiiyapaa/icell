@@ -3,13 +3,21 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
+/*All the styling of LoginPage is done inline*/
 
 const Loginpage = () => {
     return (
-
+    <>
+    <Row><br></br></Row>
+    <Row lg={1}>
     <div style={{ display:'flex', justifyContent:'center' }}>
+
         <Card style={{ width: '28rem', height: '20rem', borderColor: 'black', backgroundColor: '#eceeee'}} >
+
         <Card.Header style={{textAlign: 'center', borderColor: 'black', fontWeight: 'bold', fontSize: '17pt'}}>Login</Card.Header>
+
         <Card.Body>
             <Card.Text>
             <Form>
@@ -35,8 +43,12 @@ const Loginpage = () => {
             </Form>
             </Card.Text>
         </Card.Body>
+
         </Card>
+        
     </div>
+    </Row>
+    </>
     );
 }
  

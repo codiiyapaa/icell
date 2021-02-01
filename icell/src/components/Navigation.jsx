@@ -1,6 +1,8 @@
 import React from 'react';
 import './Navigation.css';
-import Navbar from 'react-bootstrap/Navbar'
+import Navbar from 'react-bootstrap/Navbar';
+
+
 
 function Navigation() {
     var x=-1;
@@ -15,7 +17,6 @@ function Navigation() {
             </Navbar.Text>
             </Navbar.Collapse>
         </Navbar>
-        <br></br>
         </>
     );
 }
