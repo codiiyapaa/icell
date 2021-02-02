@@ -2,64 +2,37 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+
 import './Dashboard.css';
  
 const Dashboard = () => {
     return (
        <>
-      <div class="main">
-      <Row>
-         <Col>
-         <div class="new_content">
-            <Button className="new_content_button">New</Button>
-         </div>
-         </Col>
-         <Col>
-         <div class="new_content">
-            <input type="text" class="searchbox" placeholder="Search"></input>
-         </div>
-         </Col>
-         <Col>
-         <div class="new_content">
-            <div class="categories">
-               <a href="/Blogadd">Blog</a>
-               <a href="/Eventadd">Event</a>
-            </div>
-         </div>
-         </Col>
-      </Row>
-                  
-         <div class="sort_by_type">
-             <input type="checkbox" name="blog" value="Blog"></input>
-             <label for="blog">Blog</label>
-             <input type="checkbox" name="event" value="Event"></input>
-             <label for="event">Event</label>
-         </div>
-
-         <div class="table_header">
-            <div class="table_title">Title</div>
-            <div class="table_date">Date</div>
-            <div class="table_type">Type</div>
-         </div>
-         <div class="table_cell">
-            <div class="cell_title">Lorem ipsum der farmit nella cursus fur vanatem</div>
-            <div class="cell_date">02-05-2021</div>
-            <div class="cell_type">Blog</div>
-            <input type="button" class="cell_delete" value="delete"></input>
-         </div>
-         <div class="table_cell">
-            <div class="cell_title">Lorem ipsum der farmit nella cursus fur vanatem</div>
-            <div class="cell_date">02-05-2021</div>
-            <div class="cell_type">Blog</div>
-            <input type="button" class="cell_delete" value="delete"></input>
-         </div>
-         <div class="table_cell">
-            <div class="cell_title">Lorem ipsum der farmit nella cursus fur vanatem</div>
-            <div class="cell_date">02-05-2021</div>
-            <div class="cell_type">Blog</div>
-            <input type="button" class="cell_delete" value="delete"></input>
-         </div>
-      </div>
+      <Container fluid>
+         <Row><br/><br/><br/><br/></Row>
+         <Row>
+            <Col className="left-margin" xs={{span: 1}}>
+               <Button className="new_content_button">New</Button>
+            </Col>
+            <Col className="Row-content-justify1" xs={{span: 6}}>
+               <Form>
+                  <Form.Control className="searchbox" type="text" placeholder="Search"/>
+               </Form>
+            </Col>
+            <Col className="Row-content-justify2" xs={{span: 2, offset: 1}}>
+            <Form.Check inline type="checkbox" id="customControlInline" label="Blog" custom/>
+            <Form.Check inline type="checkbox" id="custom-Control-Inline" label="Event" custom/>
+            </Col>
+         </Row>
+         <Row><br/><br/><br/></Row>
+         <Row>
+            Hello World
+         </Row>
+         <Row>
+         </Row>
+      </Container>
        </>
     );
 }

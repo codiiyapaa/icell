@@ -70,6 +70,13 @@
     color: black;
 }
 
+.Button_customize1:hover{
+    background: #f6f6f6;
+    border-color: black;
+    border-width: 2pt;
+    color: black;
+}
+
 .submit_button{
     height:12vh;
     position: absolute;
@@ -79,7 +86,16 @@
 
 .Button_customize2_1{
     background: red;
+    border-color: white;
+    color: white;
+    width:5vw;
+    height: 5vh;
+}
+
+.Button_customize2_1:hover{
+    background: red;
     border-color: black;
+    border-width: 2pt;
     color: white;
     width:5vw;
     height: 5vh;
@@ -87,7 +103,16 @@
 
 .Button_customize2_2{
     background: green;
+    border-color: white;
+    color: white;
+    width:5vw;
+    height: 5vh;
+}
+
+.Button_customize2_2:hover{
+    background: green;
     border-color: black;
+    border-width: 2pt;
     color: white;
     width:5vw;
     height: 5vh;

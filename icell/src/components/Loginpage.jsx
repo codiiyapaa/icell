@@ -15,7 +15,7 @@ const Loginpage = () => {
     <div style={{ display:'flex', justifyContent:'center' }}>
 
         <Card style={{ width: '28rem', height: '20rem', borderColor: 'black', backgroundColor: '#eceeee'}} >
-
+            
         <Card.Header style={{textAlign: 'center', borderColor: 'black', fontWeight: 'bold', fontSize: '17pt'}}>Login</Card.Header>
 
         <Card.Body>
