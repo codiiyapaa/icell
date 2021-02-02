@@ -28,7 +28,11 @@ const Dashboard = () => {
          </Row>
          <Row><br/><br/><br/></Row>
          <Row>
-            Hello World
+            <div className="table-header">
+               <div className="table-header-title">Title</div>
+               <div className="table-header-date">Date</div>
+               <div className="table-header-type">Type</div>
+            </div>
          </Row>
          <Row>
          </Row>

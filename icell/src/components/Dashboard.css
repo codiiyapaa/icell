@@ -60,3 +60,46 @@
 .left-margin{
     margin-left: 5vw;
 }
+
+.table-header{
+    width: 80vw;
+    height: 7vh;
+    background: rgba(107, 98, 98, 1);
+    opacity: 1;
+    margin-left: 5vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.table-header-title{
+    color:white;
+    font-size: 2vw;
+    justify-self: center;
+    align-self: center;
+    margin-left: 1vw;
+    font-weight: bold;
+    display: inline;
+    position: relative;
+}
+
+.table-header-date{
+    color:white;
+    font-size: 2vw;
+    justify-self: center;
+    align-self: center;
+    margin-left: 40vw;
+    font-weight: bold;
+    display: inline;
+    position: relative;
+}
+
+.table-header-type{
+    color:white;
+    font-size: 2vw;
+    justify-self: center;
+    align-self: center;
+    margin-left: 12vw;
+    font-weight: bold;
+    display: inline;
+    position: relative;
+}
