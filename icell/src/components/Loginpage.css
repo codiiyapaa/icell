@@ -1,0 +1,34 @@
+.main{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.card-styling{
+    width: 28rem;
+    height: 20rem;
+    border-color: black;
+    background-color: #eceeee;
+}
+
+.card-header{
+    text-align: center;
+    border-color:black;
+    font-weight: bold;
+    font-size: 17pt;
+}
+
+.placeholder-styling{
+    border-color: black;
+}
+
+.button-styling{
+    background-color: #37a69b;
+    font-weight: bold;
+    border-color: #eceeee;
+}
+
+.button-styling:hover{
+    background-color:black;
+    font-weight: bold;
+    border-color: black;
+}
