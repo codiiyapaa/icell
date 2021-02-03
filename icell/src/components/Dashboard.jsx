@@ -35,6 +35,28 @@ const Dashboard = () => {
             </div>
          </Row>
          <Row>
+            <div className="sample-blog">
+               <div className="blog-title">ICell stands for Industry cell</div>
+               <div className="blog-date">02-02-2021</div>
+               <div className="blog-type">Blog</div>
+               <Button className="blog-button">Delete</Button>
+            </div>
+         </Row>
+         <Row>
+            <div className="sample-blog">
+               <div className="blog-title">ICell stands for Industry cell</div>
+               <div className="blog-date">02-02-2021</div>
+               <div className="blog-type">Blog</div>
+               <Button className="blog-button">Delete</Button>
+            </div>
+         </Row>
+         <Row>
+            <div className="sample-blog">
+               <div className="blog-title">ICell stands for Industry cell</div>
+               <div className="blog-date">02-02-2021</div>
+               <div className="blog-type">Blog</div>
+               <Button className="blog-button">Delete</Button>
+            </div>
          </Row>
       </Container>
        </>
